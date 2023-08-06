@@ -1,0 +1,19 @@
+{
+  "name": "eslint-clone",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "eslint-clone": "src/index.js"
+  },
+  "author": "Levi Eber",
+  "license": "ISC",
+  "engines": {
+    "node": "v18.17.0"
+  },
+  "dependencies": {
+    "astring": "^1.8.6",
+    "chalk": "^5.3.0",
+    "espree": "^9.6.1"
+  }
+}
